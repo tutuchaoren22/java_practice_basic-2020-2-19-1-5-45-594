@@ -17,6 +17,7 @@ public class Application {
                 add(Mary);
             }});
         }});
+
         teacher.addStudent(new Student("Ben", 19));
         teacher.addStudent(new Student("Solider", 20));
         System.out.println(teacher.getStudents());
